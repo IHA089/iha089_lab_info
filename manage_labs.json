@@ -5,22 +5,22 @@
       "labs": {
         "bruteforce": {
           "description": "Using brute force to take over accounts.",
-          "laburl": "/BruteForce-Lab",
+          "laburl": "BruteForce-Lab",
           "blogurl": "https://iha089.org/"
         },
         "host_header_injection": {
           "description": "Host header injection for account takeover.",
-          "laburl": "/HostHeaderInjection-Lab",
+          "laburl": "HostHeaderInjection-Lab",
           "blogurl": "https://iha089.org/"
         },
         "csrf": {
           "description": "Using CSRF for account takeover.",
-          "laburl": "/CSRF-Lab",
+          "laburl": "CSRF-Lab",
           "blogurl": "https://iha089.org/"
         },
         "parameter_manipulation": {
           "description": "Exploiting parameter manipulation for account takeover.",
-          "laburl": "/ParameterManipulation-Lab",
+          "laburl": "ParameterManipulation-Lab",
           "blogurl": "https://iha089.org/"
         }
       }
@@ -30,12 +30,12 @@
       "labs": {
         "blind_sql": {
           "description": "Exploiting blind SQL injection.",
-          "laburl": "/blindSQL-Lab",
+          "laburl": "blindSQL-Lab",
           "blogurl": "https://iha089.org/"
         },
         "idor": {
           "description": "Exploiting IDOR with SQL injection.",
-          "laburl": "/IDOR-Lab",
+          "laburl": "IDOR-Lab",
           "blogurl": "https://iha089.org/"
         }
       }
