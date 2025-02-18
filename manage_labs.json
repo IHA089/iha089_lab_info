@@ -8,37 +8,6 @@
           "description": "Using brute force to take over accounts.",
           "laburl": "/BruteForceLab",
           "blogurl": "https://iha089.org/"
-        },
-        "host_header_injection": {
-          "description": "Host header injection for account takeover.",
-          "laburl": "/HostHeaderInjectionLab",
-          "blogurl": "https://iha089.org/"
-        },
-        "csrf": {
-          "description": "Using CSRF for account takeover.",
-          "laburl": "/CSRFLab",
-          "blogurl": "https://iha089.org/"
-        },
-        "parameter_manipulation": {
-          "description": "Exploiting parameter manipulation for account takeover.",
-          "laburl": "/ParameterManipulationLab",
-          "blogurl": "https://iha089.org/"
-        }
-      }
-    },
-    "sql_injection": {
-      "name":"SQLInjection",
-      "description": "Labs focused on SQL injection vulnerabilities.",
-      "labs": {
-        "blind_sql": {
-          "description": "Exploiting blind SQL injection.",
-          "laburl": "/blindSQLLab",
-          "blogurl": "https://iha089.org/"
-        },
-        "idor": {
-          "description": "Exploiting IDOR with SQL injection.",
-          "laburl": "/IDORLab",
-          "blogurl": "https://iha089.org/"
         }
       }
     }
