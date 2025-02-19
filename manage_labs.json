@@ -7,7 +7,8 @@
         "bruteforce": {
           "description": "Using brute force to take over accounts.",
           "laburl": "/BruteForceLab",
-          "blogurl": "https://iha089.org/"
+          "blogurl": "https://iha089.org/",
+          "mailserver": "no"
         }
       }
     }
