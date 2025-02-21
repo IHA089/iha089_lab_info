@@ -4,11 +4,17 @@
       "name": "AccountTakeover",
       "description": "Labs focused on exploiting account takeover vulnerabilities.",
       "labs": {
-        "bruteforce": {
+        "BruteForce": {
           "description": "Using brute force to take over accounts.",
           "laburl": "/BruteForceLab",
           "blogurl": "https://iha089.org/",
           "mailserver": "no"
+        },
+        "ImproperAccessControl":{
+          "description": "Improper access control to take over account.",
+          "laburl": "/ImproperAccessControlLab",
+          "blogurl":"https://iha089.org/",
+          "mailserver":"yes"
         }
       }
     }
