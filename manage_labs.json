@@ -15,6 +15,12 @@
           "laburl": "/ImproperAccessControlLab",
           "blogurl":"https://iha089.org/",
           "mailserver":"yes"
+        },
+        "ATO_via_XSS":{
+          "description": "use xss to take over account.",
+          "laburl": "/xssATOLab",
+          "blogurl":"https://iha089.org",
+          "mailserver":"no"
         }
       }
     }
