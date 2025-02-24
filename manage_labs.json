@@ -6,20 +6,23 @@
       "labs": {
         "BruteForce": {
           "description": "Using brute force to take over accounts.",
-          "laburl": "/BruteForceLab",
+          "laburl": "BruteForceLab",
           "blogurl": "https://iha089.org/",
+          "version":"v1.1",
           "mailserver": "no"
         },
         "ImproperAccessControl":{
           "description": "Improper access control to take over account.",
-          "laburl": "/ImproperAccessControlLab",
+          "laburl": "ImproperAccessControlLab",
           "blogurl":"https://iha089.org/",
+          "version":"v1.1",
           "mailserver":"yes"
         },
         "ATO_via_XSS":{
           "description": "use xss to take over account.",
-          "laburl": "/xssATOLab",
+          "laburl": "xssATOLab",
           "blogurl":"https://iha089.org",
+          "version":"v1.1",
           "mailserver":"no"
         }
       }
