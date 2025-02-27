@@ -5,6 +5,7 @@
       "description": "Labs focused on exploiting account takeover vulnerabilities.",
       "labs": {
         "BruteForce": {
+          "labname":"Brute Force",
           "description": "Using brute force to take over accounts.",
           "laburl": "BruteForceLab",
           "blogurl": "https://iha089.org/",
@@ -12,6 +13,7 @@
           "mailserver": "no"
         },
         "ImproperAccessControl":{
+          "labname":"Improper Access Control",
           "description": "Improper access control to take over account.",
           "laburl": "ImproperAccessControlLab",
           "blogurl":"https://iha089.org/",
@@ -19,8 +21,17 @@
           "mailserver":"yes"
         },
         "ATO_via_XSS":{
+          "labname":"ATO via XSS",
           "description": "use xss to take over account.",
           "laburl": "xssATOLab",
+          "blogurl":"https://iha089.org",
+          "version":"v1.1",
+          "mailserver":"no"
+        },
+        "ATO_via_CORS":{
+          "labname":"ATO via CORS",
+          "descriptioin":"use CORS to take over account",
+          "laburl":"corsATOLab",
           "blogurl":"https://iha089.org",
           "version":"v1.1",
           "mailserver":"no"
