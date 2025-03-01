@@ -6,9 +6,9 @@
       "labs": {
         "BruteForce": {
           "labname":"Brute Force",
-          "description": "Using brute force to take over accounts.",
+          "description": "In this lab, your challenge is to take over the admin@iha089.org account by identifying and exploiting vulnerabilities in the authentication mechanism through brute force techniques.",
           "laburl": "BruteForceLab",
-          "blogurl": "https://iha089.org/",
+          "blogurl": "https://iha089.org/brute-force-lab",
           "version":"v1.2",
           "mailserver": "no"
         },
