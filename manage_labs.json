@@ -14,9 +14,9 @@
         },
         "ImproperAccessControl":{
           "labname":"Improper Access Control",
-          "description": "Improper access control to take over account.",
+          "description": "Target has a Host Header Injection vulnerability in its password reset mechanism. Exploit it to intercept the reset token and take over the account.",
           "laburl": "ImproperAccessControlLab",
-          "blogurl":"https://iha089.org/",
+          "blogurl":"https://iha089.org/improper-access-control-lab",
           "version":"v1.1",
           "mailserver":"yes"
         },
