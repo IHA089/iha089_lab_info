@@ -9,8 +9,8 @@
           "description": "In this lab, your challenge is to take over the admin@iha089.org account by identifying and exploiting vulnerabilities in the authentication mechanism through brute force techniques.",
           "laburl": "BruteForceLab",
           "blogurl": "https://iha089.org/brute-force-lab",
-          "version":"v1.2",
-          "mailserver": "no"
+          "version":"v1.1",
+          "mailserver": "yes"
         },
         "ImproperAccessControl":{
           "labname":"Improper Access Control",
