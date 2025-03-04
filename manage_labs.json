@@ -30,7 +30,7 @@
         },
         "ATO_via_CORS":{
           "labname":"ATO via CORS",
-          "descriptioin":"The corsATO Lab has a CORS vulnerability, allowing attackers to steal sensitive data from other origins.",
+          "description":"The corsATO Lab has a CORS vulnerability, allowing attackers to steal sensitive data from other origins.",
           "laburl":"corsATOLab",
           "blogurl":"https://iha089.org",
           "version":"v1.1",
