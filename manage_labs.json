@@ -14,7 +14,7 @@
         },
         "ImproperAccessControl":{
           "labname":"Improper Access Control",
-          "description": "Target has a Host Header Injection vulnerability in its password reset mechanism. Exploit it to intercept the reset token and take over the account.",
+          "description": "This lab has a Host Header Injection vulnerability in its password reset mechanism. Exploit it to intercept the reset token and take over the account.",
           "laburl": "ImproperAccessControlLab",
           "blogurl":"https://iha089.org/improper-access-control-lab",
           "version":"v1.1",
@@ -22,7 +22,7 @@
         },
         "ATO_via_XSS":{
           "labname":"ATO via XSS",
-          "description": "use xss to take over account.",
+          "description": "The XSSATO Lab login page is vulnerable to XSS, allowing attackers to inject scripts to steal users' usernames and passwords.",
           "laburl": "xssATOLab",
           "blogurl":"https://iha089.org",
           "version":"v1.1",
@@ -30,7 +30,7 @@
         },
         "ATO_via_CORS":{
           "labname":"ATO via CORS",
-          "descriptioin":"use CORS to take over account",
+          "descriptioin":"The corsATO Lab has a CORS vulnerability, allowing attackers to steal sensitive data from other origins.",
           "laburl":"corsATOLab",
           "blogurl":"https://iha089.org",
           "version":"v1.1",
