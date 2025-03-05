@@ -35,6 +35,14 @@
           "blogurl":"https://iha089.org",
           "version":"v1.1",
           "mailserver":"no"
+        },
+        "ATO_via_IDOR":{
+          "labname":"ATO via IDOR",
+          "description":"The IDORATO Lab's Forgot Password page is vulnerable to IDOR (Insecure Direct Object Reference).",
+          "laburl":"idorATOLab",
+          "blogurl":"https://iha089.org",
+          "version":"v1.1",
+          "mailserver":"yes"
         }
       }
     }
