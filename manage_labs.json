@@ -41,7 +41,7 @@
           "description":"The IDORATO Lab's Forgot Password page is vulnerable to IDOR (Insecure Direct Object Reference).",
           "laburl":"idorATOLab",
           "blogurl":"https://iha089.org",
-          "version":"v1.1",
+          "version":"v1.2",
           "mailserver":"yes"
         }
       }
