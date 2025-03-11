@@ -33,8 +33,8 @@
           "description":"The corsATO Lab has a CORS vulnerability, allowing attackers to steal sensitive data from other origins.",
           "laburl":"corsATOLab",
           "blogurl":"https://iha089.org",
-          "version":"v1.1",
-          "mailserver":"no"
+          "version":"v1.2",
+          "mailserver":"yes"
         },
         "ATO_via_IDOR":{
           "labname":"ATO via IDOR",
