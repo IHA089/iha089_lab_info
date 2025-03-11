@@ -17,7 +17,7 @@
           "description": "This lab has a Host Header Injection vulnerability in its password reset mechanism. Exploit it to intercept the reset token and take over the account.",
           "laburl": "ImproperAccessControlLab",
           "blogurl":"https://iha089.org/improper-access-control-lab",
-          "version":"v1.1",
+          "version":"v1.2",
           "mailserver":"yes"
         },
         "ATO_via_XSS":{
