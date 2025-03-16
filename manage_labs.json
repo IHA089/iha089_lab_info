@@ -43,14 +43,6 @@
           "blogurl":"https://iha089.org",
           "version":"v1.2",
           "mailserver":"yes"
-        },
-        "ATO_via_clickjacking":{
-          "labname":"ATO via clickjacking",
-          "description":"The clickjackingATO Lab's Forgot Password page is vulnerable to IDOR (Insecure Direct Object Reference).",
-          "laburl":"clickjackingATOLab",
-          "blogurl":"https://iha089.org",
-          "version":"v1.1",
-          "mailserver":"yes"
         }
       }
     }
