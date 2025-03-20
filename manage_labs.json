@@ -45,6 +45,20 @@
           "mailserver":"yes"
         }
       }
+    },
+    "API_Abuse":{
+      "name":"APIAbuse",
+      "description": "Labs focused on exploiting API Abuse vulnerabilities.",
+      "labs": {
+        "RateLimit":{
+          "labname":"Rate Limit Bypass",
+          "description":"The Rate Limit Lab's have rate limit on login via password exploit it to gain other user accout.",
+          "laburl":"APIAbuseLab",
+          "blogurl":"https://iha089.org",
+          "version":"v1.1",
+          "mailserver":"yes"
+        }
+      }
     }
   }
 }
