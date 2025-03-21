@@ -53,7 +53,15 @@
         "RateLimit":{
           "labname":"Rate Limit Bypass",
           "description":"The Rate Limit Lab's have rate limit on login via password exploit it to gain other user accout.",
-          "laburl":"APIAbuseLab",
+          "laburl":"RateLimitLab",
+          "blogurl":"https://iha089.org",
+          "version":"v1.1",
+          "mailserver":"yes"
+        },
+        "MassUserEnumeration":{
+          "labname":"Mass User Enumeration",
+          "description":"The Mass User Enumeration Lab's have an vulnerability to enumerate multiple users information(email).",
+          "laburl":"MassUserEnumerationLab",
           "blogurl":"https://iha089.org",
           "version":"v1.1",
           "mailserver":"yes"
