@@ -67,6 +67,20 @@
           "mailserver":"yes"
         }
       }
+    },
+    "Open_Redirection":{
+      "name":"OpenRedirection",
+      "description": "Labs focused on exploiting open redirection vulnerabilities.",
+      "labs": {
+        "BasicURLParameterRedirection":{
+          "labname":"Basic URL Parameter Redirection",
+          "description":"an open redirection is present on /login route exploit it to redirect user on any website",
+          "laburl":"BasicURLParameterRedirectionLab",
+          "blogurl":"https://iha089.org",
+          "version":"v1.1",
+          "mailserver":"yes"
+        }
+      }
     }
   }
 }
