@@ -74,8 +74,24 @@
       "labs": {
         "BasicURLParameterRedirection":{
           "labname":"Basic URL Parameter Redirection",
-          "description":"an open redirection is present on /login route exploit it to redirect user on any website",
+          "description":"an open redirection is present on /login route exploit it to redirect user on any website.",
           "laburl":"BasicURLParameterRedirectionLab",
+          "blogurl":"https://iha089.org",
+          "version":"v1.1",
+          "mailserver":"yes"
+        },
+        "PathBasedOpenRedirection":{
+          "labname":"Path Based Open Redirection",
+          "description":"you can redirection on any page via /redirection/iha089-labs.in/<path>. exploit this to redirect user on any website.",
+          "laburl":"PathBasedOpenRedirectionLab",
+          "blogurl":"https://iha089.org",
+          "version":"v1.1",
+          "mailserver":"yes"
+        },
+        "HostHeaderOpenRedirection":{
+          "labname":"Host Header Open Redirection",
+          "description":"an open redirection is present on /dashboard.html or profile.html route exploit it to redirect user on any website",
+          "laburl":"HostHeaderOpenRedirectionLab",
           "blogurl":"https://iha089.org",
           "version":"v1.1",
           "mailserver":"yes"
