@@ -95,6 +95,14 @@
           "blogurl":"https://iha089.org",
           "version":"v1.1",
           "mailserver":"yes"
+        },
+        "DOMBasedOpenRedirection":{
+          "labname":"DOM Based Open Redirection",
+          "description":"an open redirection is present on /dashboard.html or profile.html exploit it to redirect user on any website",
+          "laburl":"DOMBasedOpenRedirectionLab",
+          "blogurl":"https://iha089.org",
+          "version":"v1.1",
+          "mailserver":"yes"
         }
       }
     }
