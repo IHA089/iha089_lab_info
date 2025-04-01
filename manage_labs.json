@@ -103,6 +103,14 @@
           "blogurl":"https://iha089.org",
           "version":"v1.1",
           "mailserver":"yes"
+        },
+        "ParameterPollutionRedirection":{
+          "labname":"Parameter Pollution Redirection",
+          "description":"an open redirection is present on /login exploit it to redirect user on any website",
+          "laburl":"ParameterPollutionRedirectionLab",
+          "blogurl":"https://iha089.org",
+          "version":"v1.1",
+          "mailserver":"yes"
         }
       }
     }
