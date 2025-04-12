@@ -113,6 +113,20 @@
           "mailserver":"yes"
         }
       }
+    },
+    "cors_misconfiguration":{
+      "name":"CORSMisconfiguration",
+      "description": "Labs focused on exploiting CORS vulnerabilities.",
+      "labs": {
+        "CORSwithRegex":{
+          "labname":"CORS with Regex based Origin",
+          "description":"In this lab, your challenge is to access session id via exploit cors vulnerability.",
+          "laburl":"CORSwithRegexLab",
+          "blogurl":"https://iha089.org",
+          "version":"v1.1",
+          "mailserver":"yes"
+        }
+      }
     }
   }
 }
