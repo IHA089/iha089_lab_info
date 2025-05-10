@@ -82,7 +82,7 @@
         },
         "PathBasedOpenRedirection":{
           "labname":"Path Based Open Redirection",
-          "description":"you can redirection on any page via /redirection/iha089-labs.in/<path>. exploit this to redirect user on any website.",
+          "description":"you can redirection on any page via /redirect/iha089-labs.in/<path>. exploit this to redirect user on any website.",
           "laburl":"PathBasedOpenRedirectionLab",
           "blogurl":"https://iha089.org",
           "version":"v1.1",
