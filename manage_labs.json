@@ -1,180 +1,5 @@
 {
   "labs": {
-    "account_takeover": {
-      "name": "AccountTakeover",
-      "labname":"Account Takeover",
-      "img":"https://img.icons8.com/?size=100&id=44020&format=png",
-      "description": "Labs focused on exploiting account takeover vulnerabilities.",
-      "labs": {
-        "BruteForce": {
-          "labname":"Brute Force",
-          "img":"https://img.icons8.com/?size=100&id=44020&format=png",
-          "authorname":"Rohitash Kumawat",
-          "domains":["bruterorce"],
-          "description": "In this lab, your challenge is to take over the admin@iha089.org account by identifying and exploiting vulnerabilities in the authentication mechanism through brute force techniques.",
-          "laburl": "BruteForceLab",
-          "blogurl": "https://iha089.org/brute-force-lab",
-          "version":"v1.3",
-          "mailserver": "yes"
-        },
-        "ImproperAccessControl":{
-          "labname":"Improper Access Control",
-          "img":"https://img.icons8.com/?size=100&id=44020&format=png",
-          "authorname":"Rohitash Kumawat",
-          "domains":["improperaccesscontol"],
-          "description": "This lab has a Host Header Injection vulnerability in its password reset mechanism. Exploit it to intercept the reset token and take over the account.",
-          "laburl": "ImproperAccessControlLab",
-          "blogurl":"https://iha089.org/improper-access-control-lab",
-          "version":"v1.2",
-          "mailserver":"yes"
-        },
-        "ATOviaXSS":{
-          "labname":"ATO via XSS",
-          "img":"",
-          "authorname":"Rohitash Kumawat",
-          "domains":["atoviaxss"],
-          "description": "The XSSATO Lab login page is vulnerable to XSS, allowing attackers to inject scripts to steal users' usernames and passwords.",
-          "laburl": "xssATOLab",
-          "blogurl":"https://iha089.org",
-          "version":"v1.2",
-          "mailserver":"yes"
-        },
-        "ATOviaCORS":{
-          "labname":"ATO via CORS",
-          "img":"",
-          "authorname":"Rohitash Kumawat",
-          "domains":["atoviacors"],
-          "description":"The corsATO Lab has a CORS vulnerability, allowing attackers to steal sensitive data from other origins.",
-          "laburl":"corsATOLab",
-          "blogurl":"https://iha089.org",
-          "version":"v1.2",
-          "mailserver":"yes"
-        },
-        "ATOviaIDOR":{
-          "labname":"ATO via IDOR",
-          "img":"",
-          "authorname":"Rohitash Kumawat",
-          "domains":["atoviaidor"],
-          "description":"The IDORATO Lab's Forgot Password page is vulnerable to IDOR (Insecure Direct Object Reference).",
-          "laburl":"idorATOLab",
-          "blogurl":"https://iha089.org",
-          "version":"v1.2",
-          "mailserver":"yes"
-        }
-      }
-    },
-    "API_Abuse":{
-      "name":"APIAbuse",
-      "labname":"API Abuse",
-      "img":"",
-      "description": "Labs focused on exploiting API Abuse vulnerabilities.",
-      "labs": {
-        "RateLimit":{
-          "labname":"Rate Limit Bypass",
-          "img":"",
-          "authorname":"Rohitash Kumawat",
-          "domains":["ratelimit"],
-          "description":"The Rate Limit Lab's have rate limit on login via password exploit it to gain other user accout.",
-          "laburl":"RateLimitLab",
-          "blogurl":"https://iha089.org",
-          "version":"v1.1",
-          "mailserver":"yes"
-        },
-        "MassUserEnumeration":{
-          "labname":"Mass User Enumeration",
-          "img":"",
-          "authorname":"Rohitash Kumawat",
-          "domains":["massuserenumeration"],
-          "description":"The Mass User Enumeration Lab's have an vulnerability to enumerate multiple users information(email).",
-          "laburl":"MassUserEnumerationLab",
-          "blogurl":"https://iha089.org",
-          "version":"v1.1",
-          "mailserver":"yes"
-        }
-      }
-    },
-    "Open_Redirection":{
-      "name":"OpenRedirection",
-      "labname":"Open Redirection",
-      "img":"",
-      "description": "Labs focused on exploiting open redirection vulnerabilities.",
-      "labs": {
-        "BasicURLParameterRedirection":{
-          "labname":"Basic URL Parameter Redirection",
-          "img":"",
-          "authorname":"Rohitash Kumawat",
-          "domains":["basicurlparameterredirection"],
-          "description":"an open redirection is present on /login route exploit it to redirect user on any website.",
-          "laburl":"BasicURLParameterRedirectionLab",
-          "blogurl":"https://iha089.org",
-          "version":"v1.1",
-          "mailserver":"yes"
-        },
-        "PathBasedOpenRedirection":{
-          "labname":"Path Based Open Redirection",
-          "img":"",
-          "authorname":"Rohitash Kumawat",
-          "domains":["pathbasedopenredirection"],
-          "description":"you can redirection on any page via /redirect/iha089-labs.in/<path>. exploit this to redirect user on any website.",
-          "laburl":"PathBasedOpenRedirectionLab",
-          "blogurl":"https://iha089.org",
-          "version":"v1.1",
-          "mailserver":"yes"
-        },
-        "HostHeaderOpenRedirection":{
-          "labname":"Host Header Open Redirection",
-          "img":"",
-          "authorname":"Rohitash Kumawat",
-          "domains":["hostheaderopenredirection"],
-          "description":"an open redirection is present on /dashboard.html or profile.html route exploit it to redirect user on any website",
-          "laburl":"HostHeaderOpenRedirectionLab",
-          "blogurl":"https://iha089.org",
-          "version":"v1.1",
-          "mailserver":"yes"
-        },
-        "DOMBasedOpenRedirection":{
-          "labname":"DOM Based Open Redirection",
-          "img":"",
-          "authorname":"Rohitash Kumawat",
-          "domains":["dombasedopenredirection"],
-          "description":"an open redirection is present on /dashboard.html or profile.html exploit it to redirect user on any website",
-          "laburl":"DOMBasedOpenRedirectionLab",
-          "blogurl":"https://iha089.org",
-          "version":"v1.1",
-          "mailserver":"yes"
-        },
-        "ParameterPollutionRedirection":{
-          "labname":"Parameter Pollution Redirection",
-          "img":"",
-          "authorname":"Rohitash Kumawat",
-          "domains":["parameterpollutionredirection"],
-          "description":"an open redirection is present on /login exploit it to redirect user on any website",
-          "laburl":"ParameterPollutionRedirectionLab",
-          "blogurl":"https://iha089.org",
-          "version":"v1.1",
-          "mailserver":"yes"
-        }
-      }
-    },
-    "cors_misconfiguration":{
-      "name":"CORSMisconfiguration",
-      "labname":"CORS Misconfiguration",
-      "img":"",
-      "description": "Labs focused on exploiting CORS vulnerabilities.",
-      "labs": {
-        "CORSwithRegex":{
-          "labname":"CORS with Regex based Origin",
-          "img":"",
-          "authorname":"Rohitash Kumawat",
-          "domains":["corswithregex"],
-          "description":"In this lab, your challenge is to access session id via exploit cors vulnerability.",
-          "laburl":"CORSwithRegexLab",
-          "blogurl":"https://iha089.org",
-          "version":"v1.1",
-          "mailserver":"yes"
-        }
-      }
-    },
     "XSS":{
       "name":"XSS",
       "labname":"XSS",
@@ -188,6 +13,17 @@
           "domains":["reflectedxss"],
           "description":"In this lab, your challenge is to exploit csrf vulnerability.",
           "laburl":"ReflectedXSSLab",
+          "blogurl":"https://iha089.org/",
+          "version":"v1.1",
+          "mailserver":"yes"
+        },
+        "ReflexaBeacon":{
+          "labname":"Reflexa Beacon",
+          "img":"",
+          "authorname":"Rohitash Kumawat",
+          "domains":["reflexabeacon"],
+          "description":"In this lab, your challenge is to exploit csrf vulnerability.",
+          "laburl":"ReflexaBeaconLab",
           "blogurl":"https://iha089.org/",
           "version":"v1.1",
           "mailserver":"yes"
