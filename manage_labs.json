@@ -1,34 +1,26 @@
 {
-  "labs": {
-    "XSS":{
-      "name":"XSS",
-      "labname":"XSS",
-      "img":"https://cdn.jsdelivr.net/gh/IHA089/Labs_image/xss.png",
-      "description":"Labs focused on exploiting CSRF vulnerabilities.",
-      "labs":{
-        "ReflectedXSS":{
-          "labname":"Reflected XSS",
-          "img":"https://cdn.jsdelivr.net/gh/IHA089/ReflexaBeaconLab/static/images/logo.png",
-          "authorname":"Rohitash Kumawat",
-          "domains":["reflectedxss"],
-          "description":"In this lab, your challenge is to exploit csrf vulnerability.",
-          "laburl":"ReflectedXSSLab",
-          "blogurl":"https://iha089.org/",
-          "version":"v1.1",
-          "mailserver":"yes"
-        },
-        "ReflexaBeacon":{
-          "labname":"Reflexa Beacon",
-          "img":"https://cdn.jsdelivr.net/gh/IHA089/ReflexaBeaconLab/static/images/logo.png",
-          "authorname":"Rohitash Kumawat",
-          "domains":["reflexabeacon"],
-          "description":"In this lab, your challenge is to exploit csrf vulnerability.",
-          "laburl":"ReflexaBeaconLab",
-          "blogurl":"https://iha089.org/",
-          "version":"v1.1",
-          "mailserver":"yes"
+    "labs": {
+        "XSS": {
+            "name": "XSS",
+            "labname": "XSS",
+            "img": "https://cdn.jsdelivr.net/gh/IHA089/Labs_image/xss.png",
+            "description": "Advanced, real-world simulations crafted to help you master every aspect of Cross-Site Scripting with precision and clarity.",
+            "labs": {
+                "ReflexaBeacon": {
+                    "labname": "Reflexa Beacon",
+                    "img": "https://cdn.jsdelivr.net/gh/IHA089/ReflexaBeaconLab/static/images/logo.png",
+                    "authorname": "Rohitash Kumawat",
+                    "github_profile": "https://github.com/Rohitash465",
+                    "domains": [
+                        "reflexabeacon"
+                    ],
+                    "description": "In this lab, your challenge is to exploit csrf vulnerability.",
+                    "laburl": "ReflexaBeaconLab",
+                    "blogurl": "https://iha089.org/",
+                    "version": "v1.1",
+                    "mailserver": "yes"
+                }
+            }
         }
-      }
     }
-  }
 }
