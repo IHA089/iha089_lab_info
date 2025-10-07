@@ -3,7 +3,7 @@
     "XSS":{
       "name":"XSS",
       "labname":"XSS",
-      "img":"",
+      "img":"https://cdn.jsdelivr.net/gh/IHA089/Labs_image/xss.png",
       "description":"Labs focused on exploiting CSRF vulnerabilities.",
       "labs":{
         "ReflectedXSS":{
