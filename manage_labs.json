@@ -16,7 +16,7 @@
                     ],
                     "description": "In this lab, your challenge is to exploit csrf vulnerability.",
                     "laburl": "ReflexaBeaconLab",
-                    "blogurl": "https://iha089.org/",
+                    "blogurl": "https://iha089.org/reflexa-beacon",
                     "version": "v1.1",
                     "mailserver": "yes"
                 }
