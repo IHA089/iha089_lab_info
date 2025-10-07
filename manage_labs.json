@@ -8,7 +8,7 @@
       "labs":{
         "ReflectedXSS":{
           "labname":"Reflected XSS",
-          "img":"",
+          "img":"https://cdn.jsdelivr.net/gh/IHA089/ReflexaBeaconLab/static/images/logo.png",
           "authorname":"Rohitash Kumawat",
           "domains":["reflectedxss"],
           "description":"In this lab, your challenge is to exploit csrf vulnerability.",
@@ -19,7 +19,7 @@
         },
         "ReflexaBeacon":{
           "labname":"Reflexa Beacon",
-          "img":"",
+          "img":"https://cdn.jsdelivr.net/gh/IHA089/ReflexaBeaconLab/static/images/logo.png",
           "authorname":"Rohitash Kumawat",
           "domains":["reflexabeacon"],
           "description":"In this lab, your challenge is to exploit csrf vulnerability.",
