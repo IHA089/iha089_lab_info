@@ -1,4 +1,6 @@
 {
+    "IHA089-LABS-V": "v1.1",
+    "IHA089-MAIL-V": "v1.1",
     "labs": {
         "XSS": {
             "name": "XSS",
