@@ -6,7 +6,7 @@
             "name": "XSS",
             "labname": "XSS",
             "img": "https://cdn.jsdelivr.net/gh/IHA089/Labs_image/xss.png",
-            "description": "Advanced, real-world simulations crafted to help you master every aspect of Cross-Site Scripting with precision and clarity.",
+            "description": "Advanced, real-world simulations crafted to help you master every aspect of Cross-Site Scripting(xss) with precision and clarity.",
             "labs": {
                 "ReflexaBeacon": {
                     "labname": "Reflexa Beacon",
@@ -18,6 +18,28 @@
                     ],
                     "description": "In this lab, your challenge is to exploit csrf vulnerability.",
                     "laburl": "ReflexaBeaconLab",
+                    "blogurl": "https://iha089.org/reflexa-beacon",
+                    "version": "v1.1",
+                    "mailserver": "yes"
+                }
+            }
+        },
+        "IDOR": {
+            "name": "IDOR",
+            "labname": "IDOR",
+            "img": "https://cdn.jsdelivr.net/gh/IHA089/Labs_image/xss.png",
+            "description": "Advanced, real-world simulations crafted to help you master every aspect of Insecure Direct Object Reference(IDOR) with precision and clarity.",
+            "labs": {
+                "ParamXploit": {
+                    "labname": "ParamXploit",
+                    "img": "https://cdn.jsdelivr.net/gh/IHA089/ReflexaBeaconLab/static/images/logo.png",
+                    "authorname": "Rohitash Kumawat",
+                    "github_profile": "https://github.com/Rohitash465",
+                    "domains": [
+                        "paramxploit"
+                    ],
+                    "description": "In this lab, your challenge is to exploit csrf vulnerability.",
+                    "laburl": "ParamXploitLab",
                     "blogurl": "https://iha089.org/reflexa-beacon",
                     "version": "v1.1",
                     "mailserver": "yes"
